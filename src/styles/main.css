@@ -1,0 +1,259 @@
+body {
+  background-color: #425f9c;
+  color: #3c4043;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-block {
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+  margin: 100px auto;
+  display: table;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.regField {
+  width: 100%;
+  background-color: #f7f7f7;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.submitBtn {
+  width: 100%;
+  background: #425f9c;
+  border: 0;
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.underLine {
+  text-align: center;
+  font-size: 16px;
+  padding: 15px 0 0 0;
+  margin: 10px 0 0 0;
+  display: block;
+}
+
+.linkBtn {
+  border: 0;
+  background-color: unset;
+  text-decoration: underline;
+  color: #3c4043;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 0 0 0 10px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.error {
+  padding: 10px;
+  background-color: #feeaea;
+  color: #ad343e;
+  border: 1px solid #ad343e;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.tracker-block {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  display: table;
+}
+
+.top-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #425f9c;
+  display: table;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  padding: 10px;
+  margin: 0 0 10px;
+  font-size: 18px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.welcome {
+  color: #425f9c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+.total-money {
+  color: #425f9c;
+  font-size: 24px;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.new-transaction {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  display: table;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  font-size: 18px;
+}
+
+.new-transaction input[type="text"],
+.new-transaction input[type="number"],
+.new-transaction select {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  padding: 7px;
+  font-family: "Poppins", sans-serif;
+}
+
+.new-transaction input[type="text"]:focus,
+.new-transaction select:focus {
+  outline: none;
+}
+
+.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+}
+
+.add-transaction {
+  text-align: center;
+  color: #fff;
+  background-color: #425f9c;
+  border-radius: 3px;
+  border: 0;
+  margin: 5px 0 0;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.add-transaction:hover {
+  background-color: #274177;
+}
+
+.add-transaction:focus {
+  outline: none;
+}
+
+.latest-transactions {
+  margin: 10px 0 0 0;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.latest-transactions p {
+  font-weight: 600;
+  padding: 0 0 5px;
+  margin: 0;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+}
+
+ul li:last-child {
+  border-bottom: 0;
+  padding: 5px 0 0;
+}
+
+.logoutBtn {
+  background-color: #425f9c;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logoutBtn:hover {
+  background-color: #f05454;
+}
+
+.deposit {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
+
+.spinner {
+  display: table;
+  margin: 0 auto;
+}
+
+.img-spinner {
+  max-width: 30px;
+}
+/*# sourceMappingURL=main.css.map */

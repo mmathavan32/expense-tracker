@@ -1,0 +1,144 @@
+.tracker-block {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  display: table;
+}
+
+.top-container {
+  box-sizing: border-box;
+  color: $app-bg-color;
+  display: table;
+  width: 100%;
+  border-radius: 5px;
+  background-color: $white;
+  border: 0;
+  padding: 10px;
+  margin: 0 0 10px;
+  font-size: 18px;
+  box-shadow: $box-shadow;
+}
+
+.welcome {
+  color: $app-bg-color;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.total-money {
+  color: $app-bg-color;
+  font-size: 24px;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.new-transaction {
+  box-sizing: border-box;
+  text-align: center;
+  display: table;
+  width: 100%;
+  border-radius: 5px;
+  background-color: $white;
+  border: 0;
+  font-size: 18px;
+}
+
+.new-transaction input[type="text"],
+.new-transaction input[type="number"],
+.new-transaction select {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid $border-color;
+  font-size: 18px;
+  padding: 7px;
+  font-family: $font-family;
+}
+
+.new-transaction input[type="text"]:focus,
+.new-transaction select:focus {
+  outline: none;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.add-transaction {
+  text-align: center;
+  color: $white;
+  background-color: $app-bg-color;
+  border-radius: 3px;
+  border: 0;
+  margin: 5px 0 0;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-family: $font-family;
+  cursor: pointer;
+}
+
+.add-transaction:hover {
+  background-color: $app-hover;
+}
+
+.add-transaction:focus {
+  outline: none;
+}
+
+.latest-transactions {
+  margin: 10px 0 0 0;
+  background-color: $white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: $box-shadow;
+}
+
+.latest-transactions p {
+  font-weight: 600;
+  padding: 0 0 5px;
+  margin: 0;
+  font-size: 18px;
+  border-bottom: 1px solid $border-color;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  border-bottom: 1px solid $border-color;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+ul li:last-child {
+  border-bottom: 0;
+  padding: 5px 0 0;
+}
+
+.logoutBtn {
+  background-color: $app-bg-color;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: $white;
+  font-family: $font-family;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: $box-shadow;
+}
+
+.logoutBtn:hover {
+  background-color: #f05454;
+}

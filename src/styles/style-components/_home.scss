@@ -1,0 +1,35 @@
+//Colors
+$app-bg-color: #425f9c;
+$app-hover: #274177;
+$app-text-color: #3c4043;
+$form-bg-color: #f7f7f7;
+$black: #000;
+$white: #fff;
+$warning-bg: #feeaea;
+$warning-text: #ad343e;
+$spinner-bg: #feeaea;
+$text-shadow: 0px 5px 5px #292929;
+$border-color: #ddd;
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+//Fonts
+$font-family: "Poppins", sans-serif;
+
+body {
+  background-color: $app-bg-color;
+  color: $app-text-color;
+  font-family: $font-family;
+}
+
+.main-block {
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+  margin: 100px auto;
+  display: table;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

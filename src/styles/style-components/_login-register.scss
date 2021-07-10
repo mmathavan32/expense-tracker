@@ -1,0 +1,53 @@
+.regField {
+  width: 100%;
+  background-color: $form-bg-color;
+  color: $black;
+  border: 1px solid #ddd;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  font-family: $font-family;
+}
+
+.submitBtn {
+  width: 100%;
+  background: $app-bg-color;
+  border: 0;
+  color: $white;
+  padding: 15px;
+  margin: 10px 0 0 0;
+  font-family: $font-family;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.underLine {
+  text-align: center;
+  font-size: 16px;
+  padding: 15px 0 0 0;
+  margin: 10px 0 0 0;
+  display: block;
+}
+
+.linkBtn {
+  border: 0;
+  background-color: unset;
+  text-decoration: underline;
+  color: $app-text-color;
+  font-family: $font-family;
+  font-size: 16px;
+  padding: 0 0 0 10px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.error {
+  padding: 10px;
+  background-color: $warning-bg;
+  color: $warning-text;
+  border: 1px solid $warning-text;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}

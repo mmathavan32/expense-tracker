@@ -1,0 +1,13 @@
+@import "./style-components/home";
+@import "./style-components/login-register";
+@import "./style-components/tracker";
+@import "./style-components/transaction";
+
+.spinner {
+  display: table;
+  margin: 0 auto;
+}
+
+.img-spinner {
+  max-width: 30px;
+}
